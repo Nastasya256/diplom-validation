@@ -1,0 +1,224 @@
+@import "style.css";
+@import "flex.css";
+
+
+.main_bg {
+background-color: rgba(24, 181, 194, 1);
+  padding: 150px 0;
+text-align: left;
+}
+
+.grid {
+  text-align: center;
+  display: grid;
+  grid-template-areas: "a b" "c d";
+
+}
+
+
+.grid-item {
+
+}
+
+.grid-one {
+  grid-area: a;
+}
+.grid-two {
+  grid-area: b;
+  grid-column-gap: 70px;
+  position:absolute;
+  left: 820px;
+}
+.grid-three {
+  grid-area: c;
+
+}
+.grid-four {
+  grid-area: d;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+
+.app_food {
+  border-radius: 15%;
+  width: 75px;
+  height: 75px;
+
+}
+
+.app_taxi {
+
+  width: 80px;
+  height: 80px;
+
+
+}
+
+
+
+.text_app {
+  text-align: center;
+
+
+}
+
+
+.how_it {
+  background-color: white;
+    margin: 0;
+}
+
+.how_it_works {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  padding: 0 15% 5% 15%;
+  grid-column-gap: 2em;
+margin: 0;
+
+
+}
+
+.box_1 {
+  grid-column: 1/5;
+}
+.box_1_sales h4 {
+  margin: 0;
+}
+
+.hw {
+  background-color: white;
+  font-family: sofia-pro;
+  font-weight: 400;
+  font-size: 18pt;
+  color: black;
+  letter-spacing: inherit;
+  line-height: 130%;
+}
+
+.sales {
+  display: grid;
+  width: 66.66%;
+  min-width: 33.33%;
+  background-color: white;
+  max-width: 1000px; /* 960 - 1200 */
+  margin: 0 auto;
+
+
+}
+
+.box_1_sales {
+  align-self: end;
+
+}
+
+.box_2_sales {
+  align-self: end;
+  width: 66.66%;
+  margin: 0;
+}
+
+.box_4_sales {
+  align-self: end;
+  width: 66.66%;
+  margin: 0;
+
+}
+
+.where {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1/2;
+  padding: 0 15% 5% 15%;
+background-color: rgba(246, 245, 243, 1);
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.where_txt {
+  background-color: rgba(246, 245, 243, 1);
+  font-family: sofia-pro;
+  font-weight: 400;
+  font-size: 18pt;
+  color: black;
+  letter-spacing: inherit;
+  line-height: 110%;
+}
+.box_1_where {
+  margin-top: 0;
+  align-self: start;
+
+}
+
+.neighborhood {
+  grid-template-columns: 1fr;
+
+  padding: 0 15% 5% 15%;
+  background-image: url(../IMG/orig.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 0;
+}
+ .neighborhood h4 {
+   color: white;
+     text-align: left;
+ }
+
+.neighborhood_p {
+  color: white;
+  background-color: transparent;
+  text-align: left;
+  width: 66.66%;
+}
+
+
+.supply {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1/2;
+  padding: 0 15% 5% 15%;
+background-color: rgba(246, 245, 243, 1);
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.box_1_supply {
+margin: auto;
+  text-align: center;
+    width: 66.66%;
+
+}
+
+.box_2_supply {
+  margin: auto;
+  text-align: center;
+    width: 66.66%;
+
+}
+
+
+.courier {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1/2;
+  padding: 0 15% 5% 15%;
+background-color: white;
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.box_1_courier  {
+margin: auto;
+  text-align: center;
+    width: 66.66%;
+
+}
+.box_2_courier p {
+
+    background-color: white;
+}

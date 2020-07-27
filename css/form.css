@@ -1,0 +1,111 @@
+@import "css/style.css";
+@import "css/supply.css";
+
+form {
+font-family: sofia-pro;
+  margin: 0 0 100px 0;
+
+
+}
+
+
+form h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.supply_contact {
+
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+
+}
+
+label {
+margin-right: 0;
+
+}
+
+input {
+
+
+
+}
+
+button {
+  position: relative;
+  border: none;
+  font-family: sofia-pro;
+  font-size: 16pt;
+  padding: 0 10px;
+  background: rgb(252, 244, 18);
+  color: black;
+  border-radius: 3px;
+  display:block;
+  position: relative;
+  border: 1px solid white;
+  margin: 0 auto;
+
+
+}
+
+input {
+float: right;
+outline: none;
+}
+
+
+
+input:required + .name::before {
+    content: '*';
+    color: red;
+
+
+}
+input:required + .website::before {
+    content: '*';
+    color: red;
+}
+input:required + .email::before {
+    content: '*';
+    color: red;
+}
+
+
+
+
+.supply_contact label {
+  font-size: 20px;
+
+}
+
+.name {
+  padding: 0 20px 15px 0;
+
+}
+
+.email {
+  padding: 0 20px 15px 0;
+}
+.website {
+  padding: 0 20px 15px 0;
+}
+
+
+input[type=text] {
+ outline: none;
+ height: 20px;
+
+
+}
+
+input[type=radio]{
+  float: none;
+}
+input[type="text"]:valid {
+    border: 1px solid rgb(252, 244, 18);
+}

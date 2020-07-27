@@ -1,0 +1,91 @@
+@import "style.css";
+
+.header {
+    background-color: rgba(28, 17, 94, 1);
+}
+
+.navigation {
+    background-color: rgba(28, 17, 94, 1);
+}
+.wrapper {
+    background-color: rgba(28, 17, 94, 1);
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1000px;
+  margin: 0 auto;
+
+}
+body {
+  background-color: rgba(28, 17, 94, 1);
+
+}
+
+
+.grid {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10%;
+  margin: 0 auto;
+  grid-template-areas: "a b";
+
+}
+
+
+.grid-one {
+  grid-area: a;
+}
+.grid-two {
+  grid-area: b;
+
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: sofia-pro;
+  color: white;
+  letter-spacing: 1px;
+}
+textarea {
+  margin: 0;
+}
+
+.title-sh {
+  color: white;
+}
+.form-group,
+.form-group2 {
+  position: relative;
+  margin-bottom: 32px;
+}
+.form-title {
+  text-align: left;
+  font-family: sofia-pro;
+  color: white;
+  font-size: 40px;
+}
+.form-input
+
+{
+  width: 100%;
+  padding: 0 0 10px 0;
+  font-family: sofia-pro;
+  font-size: 1.25rem;
+  color: #ffff;
+  letter-spacing: 1px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffff;
+  outline: none;
+}
+.form-button {
+  font-family: sofia-pro;
+    font-size: 1.25rem;
+  color: rgba(28, 17, 94, 1);
+  letter-spacing: 1px;
+  outline: none;
+  padding:  10px 15px 10px 15px;
+}

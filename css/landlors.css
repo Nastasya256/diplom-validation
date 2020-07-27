@@ -1,0 +1,222 @@
+@import "style.css";
+@import "form.css";
+
+
+.bg {
+  background-color: rgba(96, 97, 87, 1);
+  padding: 150px 0;
+text-align: left;
+}
+
+
+.bg h1 {
+  font-family: sofia-pro;
+  font-size: 50pt;
+  background-color: rgba(96, 97, 87, 1);
+  margin-top: 0;
+  margin-left: auto;
+  color: white;
+  letter-spacing: normal;
+  line-height: 110%;
+  text-align: left;
+  max-width: 953px;
+
+
+}
+
+.bg p {
+  font-family: sofia-pro;
+  font-size: 18pt;
+  background-color: rgba(96, 97, 87, 1);
+  margin-left: auto;
+  margin-top: 0;
+  color: white;
+  letter-spacing: normal;
+  line-height: 110%;
+  text-align: left;
+    max-width: 953px;
+}
+
+
+.header {
+  position: relative;
+    background-color: rgba(96, 97, 87, 1);
+    box-sizing: border-box;
+  width: 100%;
+  padding-right: 19px;
+  padding-left: 19px;
+  font-size: 15px;
+}
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 954px;
+  margin: 0 auto;
+  background-color: rgba(96, 97, 87, 1);
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+  font-family: sofia-pro;
+  font-weight: 400;
+  padding-left: 0;
+  background-color: rgba(96, 97, 87, 1);
+
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.nav>li>a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.nav>li {
+  display: flex;
+  align-items: center;
+  justify-content: space-betwen;
+  padding-left: 23px;
+  margin-left: 22px;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1/2;
+  padding: 0 15% 0 15%;
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.box_place {
+  margin: auto;
+    text-align: center;
+      width: 66.66%;
+}
+p {
+  font-family: sofia-pro;
+  font-weight: 400;
+  font-size: 20pt;
+  color: black;
+  padding-top: 16px;
+  letter-spacing: normal;
+  line-height: 110%;
+    max-width: 954px;
+    padding-bottom: 0;
+
+}
+
+h2 {
+padding-top: 0;
+}
+
+.marks {
+    background-color: rgba(149, 224, 216, 0.6);
+}
+.products {
+  background-color: rgba(67, 76, 68, 1);
+}
+
+.form-text {
+    background-color: rgba(207, 158, 143, 1);
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+
+
+}
+
+input {
+float: right;
+outline: none;
+}
+
+input[type=checkbox]{
+  float: none;
+}
+
+.phone {
+
+  padding: 0 20px 15px 0;
+}
+
+.city {
+  padding: 0 20px 15px 0;
+}
+
+.region {
+  padding: 0 20px 15px 0;
+}
+.address {
+  padding: 0 20px 15px 0;
+}
+.area {
+  padding: 0 20px 15px 0;
+}
+
+
+.price {
+  padding: 0 20px 15px 0;
+}
+
+.kw {
+  padding: 0 20px 15px 0;
+}
+
+
+
+input:required + .phone::before {
+    content: '*';
+    color: red;
+
+
+}
+input:required +.city::before {
+    content: '*';
+    color: red;
+
+
+}
+input:required + .region::before {
+    content: '*';
+    color: red;
+
+
+}
+input:required + .address::before {
+    content: '*';
+    color: red;
+
+
+}
+input:required + .area::before {
+    content: '*';
+    color: red;
+
+
+}
+
+input:required + .kw::before {
+    content: '*';
+    color: red;
+
+
+}
+input:required + .price::before {
+    content: '*';
+    color: red;
+
+
+}

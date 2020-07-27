@@ -1,0 +1,90 @@
+@import "style.css";
+@import "form.css";
+
+
+.bg {
+  background-color: rgba(55, 136, 168, 1);
+  padding: 150px 0;
+text-align: left;
+}
+
+
+.bg h1 {
+  font-family: sofia-pro;
+  font-size: 50pt;
+    background-color: rgba(55, 136, 168, 1);
+  margin-left: auto;
+  color: white;
+  letter-spacing: normal;
+  line-height: 110%;
+  text-align: left;
+  max-width: 953px;
+
+
+}
+
+.bg p {
+  font-family: sofia-pro;
+  font-size: 18pt;
+  background-color: rgba(55, 136, 168, 1);
+  margin-left: auto;
+  margin-top: 0;
+  color: white;
+  letter-spacing: normal;
+  line-height: 110%;
+  text-align: left;
+    max-width: 953px;
+}
+
+
+.header {
+  position: relative;
+    background-color: rgba(55, 136, 168, 1);
+    box-sizing: border-box;
+  width: 100%;
+  padding-right: 19px;
+  padding-left: 19px;
+  font-size: 15px;
+}
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 954px;
+  margin: 0 auto;
+  background-color: rgba(55, 136, 168, 1);
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+  font-family: sofia-pro;
+  font-weight: 400;
+  padding-left: 0;
+  background-color: rgba(55, 136, 168, 1);
+
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.nav>li>a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.nav>li {
+  display: flex;
+  align-items: center;
+  justify-content: space-betwen;
+  padding-left: 23px;
+  margin-left: 22px;
+}
+
+
+.products {
+  colortext: rgba(38, 95, 117, 1);
+}
